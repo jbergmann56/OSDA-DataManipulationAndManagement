@@ -1,0 +1,943 @@
+"customer_id";"fname";"surname";"shipping_state";"loyalty_discount"
+"200000663";"Leonard";"Jackson";"Delaware";0.02
+"200000661";"Lucas";"Abraham";"Louisiana";0.0
+"200000662";"Trevor";"Skinner";"Louisiana";0.1
+"100000007";"Dorothy";"Thomson";"Alabama";0.07
+"400000180";"Eric";"Bower";"New Hampshire";0.06
+"200000701";"Joshua";"Wilson";"North Carolina";0.1
+"300000467";"Angela";"Morrison";"Utah";0.08
+"400000706";"Samantha";"Mills";"Alabama";0.1
+"100000061";"Kylie";"Howard";"Minnesota";0.1
+"400000513";"Amy";"Wilkins";"Minnesota";0.02
+"200000459";"Charles";"Brown";"Arizona";0.04
+"200000482";"Justin";"Graham";"Arizona";0.01
+"100000081";"Joan";"Buckland";"Minnesota";0.02
+"200000821";"Charles";"Underwood";"Texas";0.08
+"300000015";"Madeleine";"Marshall";"Arizona";0.08
+"100000252";"Nicholas";"Lyman";"North Carolina";0.09
+"300000822";"Leonard";"Fisher";"Maine";0.07
+"300000815";"Pippa";"Robertson";"Massachusetts";0.03
+"100000618";"Andrew";"Wright";"Wyomin";0.08
+"100000051";"Sophie";"Wilkins";"Washington";0.04
+"100000880";"Rachel";"Springer";"North Dakota";0.03
+"100000898";"Samantha";"Ross";"Montan";0.02
+"400000359";"Gabrielle";"MacDonald";"Vermont";0.07
+"100000559";"Grace";"Mills";"Massachusetts";0.09
+"100000878";"Felicity";"Metcalfe";"Florida";0.03
+"100000013";"Ryan";"MacDonald";"Delaware";0.08
+"100000569";"Gabrielle";"Skinner";"Wyomin";0.0
+"300000852";"Kevin";"Parsons";"Mississippi";0.03
+"100000158";"Michael";"Powell";"North Carolina";0.09
+"300000023";"Deirdre";"McDonald";"New York";0.05
+"100000923";"Andrea";"Henderson";"Missouri";0.09
+"100000251";"Fiona";"Jones";"South Dakota";0.1
+"400000557";"Lisa";"Buckland";"Kentucky";0.02
+"300000614";"Jennifer";"Skinner";"Georgia";0.1
+"100000477";"Chloe";"MacLeod";"Wyomin";0.09
+"200000537";"Rebecca";"Simpson";"Wyomin";0.09
+"100000567";"Alison";"James";"Arizona";0.0
+"200000256";"Julian";"Peake";"Connecticut";0.04
+"400000368";"Olivia";"Simpson";"Vermont";0.0
+"100000521";"Sonia";"Vance";"Vermont";0.06
+"200000493";"Jacob";"Forsyth";"Arizona";0.07
+"100000173";"Hannah";"Thomson";"Massachusetts";0.03
+"100000824";"Heather";"Davies";"Massachusetts";0.07
+"100000344";"Anna";"Miller";"South Dakota";0.03
+"100000760";"Keith";"Walker";"Minnesota";0.09
+"100000542";"Anne";"Sharp";"Illinoi";0.09
+"300000730";"Nicola";"Howard";"Iowa";0.09
+"100000121";"Ian";"Slater";"Alabama";0.1
+"200000582";"Rebecca";"Clarkson";"Mississippi";0.09
+"400000396";"Fiona";"Buckland";"Mississippi";0.08
+"300000238";"Dorothy";"Miller";"Alaska";0.06
+"100000236";"Carol";"Blake";"Missouri";0.02
+"100000010";"Dominic";"Parr";"North Dakota";0.0
+"100000341";"Jasmine";"Greene";"New Mexico";0.06
+"100000564";"Leonard";"Paige";"North Dakota";0.06
+"400000690";"Bernadette";"Duncan";"Utah";0.03
+"200000387";"Christian";"Blake";"Colorado";0.03
+"400000916";"Matt";"Grant";"New Hampshire";0.02
+"100000931";"Maria";"Lawrence";"Missouri";0.02
+"100000345";"Benjamin";"Ince";"West Virginia";0.03
+"100000144";"Sean";"Bell";"Ohio";0.02
+"300000495";"Stephen";"Poole";"Indiana";0.08
+"100000169";"Blake";"Mills";"Kentucky";0.09
+"300000702";"Diane";"Underwood";"Maryland";0.03
+"100000383";"Jasmine";"Oliver";"Louisiana";0.0
+"200000646";"Liam";"Rutherford";"Louisiana";0.02
+"400000398";"Nicola";"Ferguson";"Maryland";0.04
+"100000192";"Oliver";"Blake";"Maryland";0.09
+"100000315";"Peter";"Metcalfe";"Idaho";0.08
+"100000181";"Mary";"Watson";"Missouri";0.08
+"300000814";"James";"Newman";"Hawaii";0.01
+"100000854";"Carl";"Clark";"Kentucky";0.02
+"100000286";"Ruth";"Lambert";"Idaho";0.08
+"200000548";"Emily";"King";"Minnesota";0.09
+"100000145";"Steven";"Ball";"New York";0.03
+"100000412";"Dan";"Wright";"Oklahoma";0.1
+"200000350";"Isaac";"Kelly";"Minnesota";0.06
+"100000724";"Una";"Blake";"Texas";0.04
+"400000653";"Sam";"Campbell";"Utah";0.01
+"100000136";"Christopher";"Mackenzie";"Maryland";0.03
+"300000271";"Carl";"Abraham";"Hawaii";0.02
+"100000285";"Matt";"Black";"Maine";0.08
+"200000523";"Adam";"Gill";"Wisconsin";0.0
+"100000154";"Kevin";"Powell";"South Dakota";0.01
+"200000071";"Dan";"Mills";"Kansas";0.02
+"100000520";"Joan";"Clarkson";"Missouri";0.07
+"100000451";"Tracey";"Thomson";"North Carolina";0.03
+"100000546";"Donna";"Johnston";"Connecticut";0.02
+"300000636";"Elizabeth";"McDonald";"Arkansas";0.02
+"100000936";"Alexandra";"Henderson";"Rhode Island";0.02
+"200000819";"Katherine";"Grant";"Illinoi";0.05
+"100000171";"John";"Hughes";"New York";0.02
+"100000042";"Diane";"Black";"Illinoi";0.06
+"300000597";"Julian";"Lyman";"Arizona";0.01
+"200000896";"Paul";"Allan";"Pennsylvani";0.06
+"400000472";"Gabrielle";"Hardacre";"Delaware";0.01
+"100000919";"Natalie";"Duncan";"New Mexico";0.07
+"100000422";"Brian";"Simpson";"North Dakota";0.05
+"100000294";"Brandon";"Morgan";"Mississippi";0.01
+"100000841";"Donna";"Davidson";"Colorado";0.05
+"100000544";"Ian";"Ince";"Florida";0.1
+"300000734";"Sarah";"Murray";"North Dakota";0.02
+"300000633";"Piers";"Miller";"Alaska";0.08
+"400000515";"Amanda";"Mackenzie";"Mississippi";0.1
+"100000170";"Natalie";"Morrison";"Arkansas";0.04
+"100000330";"Wendy";"Turner";"Massachusetts";0.05
+"100000558";"Jan";"Sanderson";"Idaho";0.03
+"400000914";"Anna";"Randall";"New Jersey";0.05
+"100000293";"Nathan";"Bond";"Utah";0.1
+"100000443";"Justin";"Hodges";"Delaware";0.03
+"200000363";"Brandon";"Johnston";"New York";0.04
+"200000102";"Emma";"Piper";"Georgia";0.08
+"100000091";"Blake";"Reid";"Alabama";0.01
+"200000352";"Piers";"Harris";"North Carolina";0.09
+"100000574";"Dylan";"Marshall";"West Virginia";0.02
+"200000492";"Julian";"Langdon";"Missouri";0.07
+"200000940";"Victor";"Sutherland";"Colorado";0.01
+"400000795";"Amanda";"King";"Florida";0.1
+"100000049";"Simon";"Ball";"California";0.02
+"100000141";"Angela";"Wright";"New Mexico";0.06
+"300000611";"Nicola";"Paige";"Maryland";0.08
+"100000030";"Luke";"Wilkins";"Washington";0.09
+"200000607";"Brian";"Arnold";"Connecticut";0.02
+"200000938";"Trevor";"Harris";"Michigan";0.05
+"100000247";"Claire";"Dickens";"Indiana";0.09
+"200000762";"Andrea";"Robertson";"South Dakota";0.04
+"200000043";"Jake";"Morgan";"Rhode Island";0.02
+"100000709";"Angela";"Lawrence";"Washington";0.02
+"100000255";"Diane";"Henderson";"Kansas";0.1
+"200000791";"Pippa";"Walsh";"Maryland";0.1
+"100000182";"Austin";"Ball";"New York";0.06
+"200000747";"Peter";"Gibson";"Oregon";0.07
+"200000066";"Piers";"Burgess";"Nebraska";0.06
+"300000592";"Diana";"Martin";"Kansas";0.07
+"300000268";"James";"Oliver";"Georgia";0.0
+"300000731";"Warren";"Ince";"Arkansas";0.04
+"300000393";"Lily";"Lyman";"New Hampshire";0.02
+"100000378";"Harry";"Manning";"Iowa";0.06
+"100000839";"Nathan";"Kerr";"Maine";0.1
+"300000524";"Brandon";"Clark";"New Hampshire";0.0
+"400000691";"Jacob";"Clarkson";"Utah";0.02
+"100000132";"James";"Marshall";"Rhode Island";0.04
+"100000746";"Ava";"Gibson";"Kentucky";0.03
+"100000331";"Jonathan";"Manning";"Nevada";0.0
+"400000829";"Lillian";"Hemmings";"Rhode Island";0.01
+"100000377";"Samantha";"Knox";"Idaho";0.1
+"200000715";"Sebastian";"Mackenzie";"Florida";0.09
+"400000740";"Michael";"Hamilton";"Tennessee";0.03
+"200000100";"Carolyn";"Robertson";"North Carolina";0.1
+"300000717";"Anne";"Allan";"South Dakota";0.08
+"100000642";"Eric";"Wilson";"Ohio";0.07
+"200000726";"Peter";"Chapman";"California";0.0
+"100000723";"Justin";"Campbell";"Texas";0.03
+"100000677";"Dominic";"Langdon";"North Carolina";0.04
+"200000610";"Ian";"Walsh";"Alaska";0.08
+"100000877";"Megan";"Reid";"Alaska";0.03
+"100000835";"Leonard";"Gibson";"Wyomin";0.06
+"200000619";"Alexander";"Abraham";"Texas";0.03
+"100000851";"Victor";"Clark";"Georgia";0.01
+"200000725";"Kevin";"Hudson";"Georgia";0.1
+"200000447";"Neil";"Coleman";"Colorado";0.02
+"100000489";"Kevin";"Wright";"New Mexico";0.09
+"300000812";"Natalie";"Wallace";"Maryland";0.07
+"100000142";"Sam";"Russell";"Vermont";0.04
+"200000588";"Sean";"Dyer";"Vermont";0.09
+"400000514";"Michael";"Henderson";"Massachusetts";0.08
+"200000534";"Sebastian";"Thomson";"Georgia";0.1
+"100000205";"Anna";"Lee";"Maine";0.05
+"200000385";"Joe";"Parsons";"Washington";0.1
+"200000389";"Leonard";"Thomson";"Florida";0.0
+"200000793";"Charles";"McDonald";"Utah";0.06
+"100000041";"Edward";"Terry";"Indiana";0.05
+"100000130";"Alison";"MacLeod";"Pennsylvani";0.02
+"100000921";"William";"Gibson";"Mississippi";0.07
+"100000832";"David";"Turner";"Nevada";0.03
+"200000749";"Anthony";"Quinn";"Alaska";0.02
+"200000622";"Christopher";"Randall";"New York";0.09
+"100000930";"Amelia";"Hughes";"Hawaii";0.0
+"100000640";"David";"Arnold";"Wisconsin";0.1
+"100000400";"Jacob";"Fisher";"New Jersey";0.02
+"200000047";"Leah";"Nolan";"Mississippi";0.03
+"100000879";"Ryan";"Russell";"Virginia";0.02
+"400000639";"Peter";"Miller";"Oklahoma";0.04
+"100000232";"Trevor";"King";"Colorado";0.07
+"200000508";"Bella";"Gibson";"Colorado";0.08
+"200000186";"Sue";"Ellison";"Minnesota";0.01
+"300000704";"Bernadette";"Cornish";"Pennsylvani";0.04
+"200000260";"Harry";"Walsh";"Wyomin";0.07
+"100000332";"Carolyn";"Churchill";"Alabama";0.04
+"300000357";"Mary";"Reid";"Virginia";0.02
+"100000306";"Phil";"Grant";"Vermont";0.09
+"100000229";"Yvonne";"Johnston";"Wyomin";0.04
+"200000682";"Oliver";"Paterson";"Pennsylvani";0.07
+"100000233";"Stewart";"Pullman";"Idaho";0.0
+"100000402";"Kylie";"McDonald";"Indiana";0.04
+"100000881";"Joan";"Nash";"Pennsylvani";0.07
+"100000176";"Wendy";"Gill";"Arizona";0.02
+"100000809";"Dylan";"Mathis";"Colorado";0.03
+"100000847";"Virginia";"Newman";"Maryland";0.07
+"200000448";"Evan";"Hart";"Florida";0.05
+"400000441";"Amy";"Murray";"Texas";0.0
+"200000683";"Piers";"Gray";"New York";0.07
+"200000942";"Richard";"Roberts";"Alaska";0.1
+"100000445";"Rose";"Hodges";"New Hampshire";0.02
+"100000543";"Chloe";"Dickens";"Georgia";0.01
+"100000249";"Brandon";"Bower";"South Dakota";0.04
+"300000666";"Alan";"Forsyth";"Colorado";0.05
+"200000486";"Leonard";"Churchill";"Tennessee";0.05
+"200000587";"Sebastian";"Forsyth";"Delaware";0.07
+"200000716";"Theresa";"Fraser";"Rhode Island";0.09
+"100000227";"Connor";"Gill";"Alaska";0.08
+"300000913";"Dan";"Robertson";"Nebraska";0.1
+"200000109";"Joe";"Forsyth";"Texas";0.05
+"100000284";"Lily";"Hughes";"Wisconsin";0.04
+"400000755";"Angela";"Oliver";"Arkansas";0.01
+"100000203";"Yvonne";"Arnold";"North Dakota";0.03
+"300000528";"Victoria";"Welch";"Iowa";0.08
+"100000092";"Jane";"Forsyth";"New Mexico";0.1
+"100000501";"Victoria";"Johnston";"Louisiana";0.01
+"200000536";"Simon";"Brown";"West Virginia";0.06
+"100000572";"David";"Stewart";"Virginia";0.06
+"200000370";"Joshua";"Bond";"Kansas";0.09
+"200000591";"Christian";"Edmunds";"Wyomin";0.1
+"200000349";"Cameron";"Duncan";"Arizona";0.01
+"200000301";"Joseph";"Robertson";"South Carolina";0.1
+"100000304";"Andrea";"Jackson";"Mississippi";0.07
+"200000842";"Matt";"Manning";"Montan";0.06
+"100000928";"Stephen";"Glover";"Ohio";0.08
+"300000736";"Anne";"Butler";"Connecticut";0.1
+"200000414";"Sebastian";"Langdon";"Alabama";0.06
+"100000871";"Joshua";"Kelly";"South Dakota";0.05
+"100000273";"Jake";"Skinner";"Nebraska";0.01
+"300000888";"Pippa";"Gray";"New Mexico";0.0
+"100000605";"Jasmine";"Wilkins";"New Hampshire";0.1
+"300000340";"Rebecca";"Nash";"Alaska";0.09
+"400000470";"James";"White";"New Hampshire";0.08
+"400000002";"Jasmine";"Miller";"Georgia";0.0
+"300000777";"Jasmine";"Lee";"New York";0.01
+"100000922";"Sally";"Glover";"Virginia";0.08
+"200000903";"Jake";"Peters";"Georgia";0.1
+"200000408";"Blake";"Churchill";"Delaware";0.01
+"200000110";"Tim";"Jones";"Kansas";0.0
+"100000148";"Madeleine";"Ogden";"Virginia";0.05
+"100000873";"Chloe";"McDonald";"Oklahoma";0.0
+"300000612";"Emily";"Ince";"Texas";0.07
+"200000632";"Nicholas";"Allan";"Missouri";0.03
+"100000157";"Anthony";"Cornish";"Michigan";0.03
+"100000626";"Lily";"Hudson";"Indiana";0.03
+"300000729";"James";"Quinn";"Delaware";0.02
+"100000656";"Dylan";"Smith";"New Mexico";0.03
+"300000550";"Fiona";"Young";"Iowa";0.09
+"200000579";"James";"Glover";"Oregon";0.03
+"400000758";"Julia";"McDonald";"Arkansas";0.05
+"100000178";"Dan";"Piper";"California";0.06
+"100000346";"Joseph";"Buckland";"Massachusetts";0.01
+"100000316";"Mary";"Carr";"Delaware";0.01
+"100000444";"Melanie";"Nash";"Georgia";0.07
+"100000882";"Piers";"Simpson";"Alabama";0.06
+"100000643";"Alison";"Parsons";"Hawaii";0.07
+"200000586";"Dylan";"Piper";"Utah";0.0
+"200000384";"Bella";"Bailey";"Maine";0.0
+"100000172";"Nicholas";"Greene";"Washington";0.0
+"100000657";"Emily";"Reid";"South Dakota";0.07
+"200000361";"Charles";"Tucker";"North Carolina";0.09
+"100000679";"Yvonne";"Lambert";"Massachusetts";0.07
+"300000496";"Julia";"Chapman";"Indiana";0.03
+"300000687";"Tim";"Vance";"Texas";0.1
+"100000840";"Gavin";"Forsyth";"Tennessee";0.06
+"200000339";"Theresa";"Slater";"Massachusetts";0.1
+"300000430";"Amy";"Welch";"Vermont";0.08
+"100000216";"Nathan";"Turner";"Arkansas";0.01
+"200000803";"Jason";"Clark";"North Dakota";0.03
+"100000771";"Joe";"Short";"New Hampshire";0.06
+"200000763";"William";"Lyman";"Oklahoma";0.08
+"100000064";"Bernadette";"Gibson";"South Carolina";0.05
+"100000906";"Caroline";"Robertson";"Illinoi";0.0
+"100000781";"Sonia";"Welch";"Ohio";0.02
+"200000700";"Sam";"Ball";"North Dakota";0.01
+"200000076";"Michael";"Hemmings";"Arizona";0.02
+"400000113";"Tim";"Hardacre";"New York";0.03
+"200000659";"Stewart";"Poole";"Washington";0.09
+"100000219";"Alexander";"Ince";"West Virginia";0.04
+"100000195";"Amanda";"Young";"North Dakota";0.09
+"200000684";"Leonard";"Nash";"Kentucky";0.08
+"200000261";"Nathan";"Howard";"Missouri";0.05
+"400000517";"Carol";"Rutherford";"Wisconsin";0.09
+"100000858";"Simon";"Baker";"Minnesota";0.07
+"100000694";"Michael";"Cameron";"Alabama";0.04
+"100000326";"Felicity";"North";"Kentucky";0.07
+"200000912";"Brian";"Bower";"Rhode Island";0.1
+"100000885";"Vanessa";"Manning";"Maryland";0.07
+"100000328";"Megan";"Tucker";"Massachusetts";0.08
+"200000457";"Samantha";"Mackay";"South Carolina";0.01
+"100000305";"Kevin";"Springer";"Rhode Island";0.02
+"200000644";"Tim";"Marshall";"New Hampshire";0.09
+"300000634";"Heather";"Mackay";"New York";0.04
+"100000146";"Andrew";"Gray";"California";0.04
+"100000322";"Alison";"Lambert";"Delaware";0.0
+"200000608";"Adrian";"Wright";"Arizona";0.0
+"200000039";"Luke";"Martin";"North Dakota";0.04
+"200000362";"Joshua";"Underwood";"Wyomin";0.0
+"100000133";"Ruth";"Bower";"North Carolina";0.04
+"200000631";"Sean";"Lyman";"Colorado";0.04
+"300000428";"Diana";"Bower";"Ohio";0.01
+"100000577";"Yvonne";"Randall";"Michigan";0.1
+"100000500";"Grace";"Stewart";"South Carolina";0.1
+"200000670";"Richard";"Carr";"Louisiana";0.05
+"100000123";"Harry";"Short";"New Mexico";0.09
+"300000685";"Caroline";"Ross";"New Hampshire";0.08
+"100000089";"Michelle";"Ellison";"Pennsylvani";0.03
+"100000190";"Vanessa";"Avery";"South Dakota";0.05
+"200000191";"Jason";"Fisher";"Utah";0.03
+"100000277";"Maria";"Arnold";"Kentucky";0.01
+"100000456";"Amanda";"Ball";"Illinoi";0.04
+"300000735";"John";"Anderson";"Arizona";0.09
+"200000904";"Ryan";"Gray";"West Virginia";0.1
+"300000074";"Oliver";"Simpson";"California";0.09
+"100000628";"Rose";"Davies";"Texas";0.08
+"100000028";"Alison";"Fisher";"Nebraska";0.02
+"100000175";"Max";"Stewart";"Missouri";0.06
+"200000417";"Andrew";"Murray";"Louisiana";0.03
+"100000695";"Penelope";"Forsyth";"Washington";0.04
+"300000411";"Edward";"Dowd";"California";0.03
+"100000248";"James";"Miller";"Georgia";0.1
+"100000231";"Audrey";"McGrath";"North Dakota";0.05
+"100000122";"Jacob";"Payne";"Alabama";0.0
+"100000197";"Blake";"Ross";"Delaware";0.07
+"100000093";"Dan";"Peake";"South Carolina";0.02
+"200000072";"Angela";"Roberts";"Oklahoma";0.09
+"100000209";"Christian";"Sharp";"Kansas";0.04
+"300000021";"Boris";"Johnston";"Nebraska";0.08
+"100000087";"Jack";"White";"Indiana";0.06
+"100000143";"Luke";"Ball";"Wisconsin";0.05
+"100000890";"Piers";"Peake";"Connecticut";0.0
+"200000462";"Paul";"Martin";"Maryland";0.03
+"200000033";"Grace";"Chapman";"Minnesota";0.07
+"200000506";"Harry";"Payne";"Georgia";0.03
+"100000291";"Wanda";"Quinn";"North Carolina";0.08
+"100000568";"Oliver";"Hudson";"Maine";0.09
+"100000134";"Owen";"Powell";"California";0.02
+"300000468";"Jasmine";"Allan";"Montan";0.01
+"100000011";"Dominic";"Lewis";"Alaska";0.02
+"100000860";"Rebecca";"Ross";"Texas";0.05
+"100000034";"Jake";"Wilson";"Montan";0.0
+"100000313";"Jessica";"Piper";"California";0.01
+"100000308";"John";"Campbell";"Idaho";0.05
+"100000327";"Dominic";"Miller";"Hawaii";0.06
+"200000833";"Benjamin";"King";"Iowa";0.07
+"200000040";"Gavin";"Pullman";"Massachusetts";0.01
+"100000309";"Alexander";"Edmunds";"Connecticut";0.02
+"200000801";"Karen";"MacDonald";"South Dakota";0.07
+"200000017";"Grace";"Hill";"North Carolina";0.03
+"400000450";"Jake";"Cornish";"Arizona";0.08
+"200000438";"Colin";"Howard";"Oregon";0.03
+"300000530";"Chloe";"Hill";"Maine";0.05
+"200000105";"Stephen";"Ross";"Wisconsin";0.0
+"300000768";"Tracey";"Clark";"Nevada";0.02
+"100000827";"Amy";"Buckland";"New Hampshire";0.08
+"100000707";"David";"Graham";"Iowa";0.1
+"300000073";"Hannah";"White";"Indiana";0.05
+"100000320";"Ryan";"Morrison";"Indiana";0.08
+"100000235";"Jessica";"James";"Arkansas";0.04
+"100000680";"Ruth";"Short";"Arkansas";0.03
+"400000721";"James";"Dowd";"Mississippi";0.0
+"200000008";"Lisa";"Knox";"Oregon";0.06
+"200000658";"John";"Payne";"Nevada";0.07
+"100000773";"Austin";"Lee";"Oklahoma";0.1
+"100000875";"Jason";"MacLeod";"Alaska";0.06
+"100000825";"Jason";"Berry";"Alabama";0.01
+"100000135";"Piers";"King";"Maryland";0.03
+"100000788";"Kylie";"Lawrence";"Pennsylvani";0.08
+"400000115";"Ruth";"Oliver";"Maryland";0.1
+"100000796";"Tracey";"Ogden";"Michigan";0.03
+"200000210";"Blake";"Rutherford";"Nevada";0.07
+"100000156";"Charles";"Roberts";"Florida";0.06
+"200000856";"William";"McLean";"South Carolina";0.05
+"100000452";"Peter";"Quinn";"Washington";0.07
+"100000884";"Lisa";"Turner";"New Mexico";0.1
+"100000220";"Maria";"Simpson";"Arkansas";0.09
+"100000096";"Joshua";"Slater";"Hawaii";0.03
+"200000712";"Gordon";"Simpson";"Georgia";0.06
+"100000153";"Elizabeth";"Oliver";"New Jersey";0.05
+"400000759";"Neil";"James";"Virginia";0.01
+"200000018";"Samantha";"Coleman";"Minnesota";0.04
+"100000292";"Karen";"Glover";"Oklahoma";0.05
+"100000224";"Christian";"Baker";"South Dakota";0.03
+"100000743";"Jan";"Underwood";"North Carolina";0.07
+"100000124";"John";"Black";"Texas";0.05
+"100000119";"Vanessa";"Lyman";"Connecticut";0.01
+"400000720";"William";"Grant";"Wisconsin";0.04
+"100000902";"Jake";"White";"Kentucky";0.01
+"100000204";"Fiona";"Vance";"Massachusetts";0.01
+"200000458";"Lucas";"Tucker";"Indiana";0.0
+"100000547";"Sue";"Baker";"Mississippi";0.0
+"100000446";"Christian";"Abraham";"Wyomin";0.08
+"200000820";"Lucas";"Walsh";"Washington";0.09
+"100000299";"Zoe";"Johnston";"Illinoi";0.04
+"100000421";"Kimberly";"Wallace";"Idaho";0.05
+"400000516";"Hannah";"Oliver";"Michigan";0.1
+"100000212";"Eric";"North";"Florida";0.0
+"300000652";"Chloe";"Forsyth";"Texas";0.04
+"100000604";"Angela";"Short";"Idaho";0.0
+"200000629";"Benjamin";"McDonald";"Texas";0.09
+"200000483";"Anthony";"Gill";"Alaska";0.1
+"100000078";"Diane";"Simpson";"Florida";0.03
+"100000226";"Gordon";"Fraser";"Wisconsin";0.07
+"100000576";"Madeleine";"Hamilton";"Kansas";0.02
+"200000941";"Benjamin";"Manning";"Utah";0.02
+"100000038";"Robert";"Cornish";"Idaho";0.05
+"100000234";"Brian";"Mackay";"Washington";0.01
+"200000101";"Stewart";"Lewis";"Maryland";0.01
+"100000868";"Nicola";"Walsh";"Utah";0.1
+"200000728";"John";"Buckland";"Washington";0.04
+"100000311";"Lucas";"Avery";"Vermont";0.07
+"200000480";"Harry";"Reid";"New Mexico";0.09
+"100000519";"Alexander";"Duncan";"Illinoi";0.0
+"100000240";"John";"Baker";"South Carolina";0.05
+"200000672";"Audrey";"Ince";"New Jersey";0.08
+"100000001";"Simon";"Walsh";"Oregon";0.1
+"100000872";"Sally";"MacDonald";"Illinoi";0.1
+"100000060";"Ryan";"White";"Louisiana";0.01
+"300000079";"Ruth";"Mathis";"Rhode Island";0.07
+"100000831";"Steven";"Morrison";"South Dakota";0.1
+"100000225";"Piers";"White";"Rhode Island";0.09
+"300000552";"Bernadette";"Ferguson";"Arizona";0.02
+"100000454";"Edward";"Hart";"West Virginia";0.07
+"200000887";"Jan";"Robertson";"Delaware";0.02
+"100000063";"Kevin";"Gibson";"Massachusetts";0.07
+"100000279";"Blake";"Alsop";"Kentucky";0.08
+"100000797";"Penelope";"Mackenzie";"Illinoi";0.01
+"100000221";"Sally";"Arnold";"Utah";0.08
+"300000594";"Joan";"Randall";"Idaho";0.1
+"200000024";"Carl";"Quinn";"Arkansas";0.08
+"100000199";"Jasmine";"Terry";"Kentucky";0.03
+"100000174";"Penelope";"Glover";"Ohio";0.04
+"100000237";"Alison";"Hudson";"Illinoi";0.07
+"200000481";"Joan";"Gray";"Minnesota";0.04
+"400000419";"Alison";"Kerr";"Oregon";0.01
+"400000044";"Yvonne";"Churchill";"South Dakota";0.06
+"300000688";"Wendy";"Piper";"Alabama";0.1
+"100000900";"Fiona";"Miller";"Kentucky";0.05
+"100000498";"Emma";"Lewis";"New Mexico";0.04
+"100000927";"Victoria";"Wilson";"Missouri";0.1
+"100000920";"Steven";"Hill";"Wisconsin";0.02
+"200000505";"Brandon";"Peake";"Wyomin";0.06
+"100000566";"Diane";"Berry";"Iowa";0.1
+"200000424";"Keith";"Ogden";"Oklahoma";0.05
+"200000416";"Gordon";"Lee";"Michigan";0.04
+"100000116";"Alison";"Johnston";"Delaware";0.01
+"200000671";"Carolyn";"Arnold";"Mississippi";0.1
+"400000540";"Fiona";"Baker";"Missouri";0.08
+"300000429";"Trevor";"Reid";"Oregon";0.01
+"400000676";"Andrea";"Nolan";"Wisconsin";0.04
+"200000484";"Ian";"Morrison";"Kansas";0.09
+"100000184";"Peter";"McGrath";"New Mexico";0.03
+"400000601";"Blake";"Anderson";"Massachusetts";0.0
+"100000149";"Dylan";"Davies";"Washington";0.0
+"300000367";"Karen";"Gray";"West Virginia";0.02
+"100000329";"Deirdre";"Coleman";"New Jersey";0.07
+"200000834";"Sebastian";"Morgan";"Rhode Island";0.01
+"400000554";"Carol";"Marshall";"Wyomin";0.09
+"300000418";"Christian";"McLean";"Pennsylvani";0.05
+"100000560";"Jacob";"King";"Arizona";0.07
+"100000476";"Donna";"Robertson";"Indiana";0.1
+"400000272";"Rose";"Blake";"West Virginia";0.08
+"100000187";"Emma";"Parr";"Oklahoma";0.02
+"200000166";"William";"Mitchell";"Maryland";0.0
+"100000161";"Diana";"Powell";"Maryland";0.0
+"200000069";"Jason";"Sharp";"Texas";0.09
+"300000527";"Mary";"Stewart";"Idaho";0.04
+"300000510";"Peter";"Scott";"Rhode Island";0.06
+"100000094";"Lisa";"Davies";"Ohio";0.01
+"200000665";"Edward";"Turner";"Arizona";0.03
+"300000529";"Amelia";"Nolan";"Texas";0.07
+"200000070";"Kevin";"Parr";"Kansas";0.03
+"200000485";"Alan";"Murray";"Georgia";0.03
+"300000440";"Sally";"Mitchell";"New York";0.04
+"100000655";"Brandon";"Walsh";"Iowa";0.01
+"200000266";"Karen";"Oliver";"Alaska";0.1
+"100000037";"Sophie";"Gill";"California";0.0
+"100000290";"Joe";"May";"Kentucky";0.07
+"200000503";"Warren";"Lyman";"Virginia";0.08
+"200000810";"Felicity";"Wilkins";"Georgia";0.05
+"100000162";"Emma";"Peters";"New York";0.05
+"100000862";"Jack";"Young";"Virginia";0.03
+"200000371";"Alan";"Kelly";"Michigan";0.0
+"100000342";"Christian";"Jackson";"Virginia";0.1
+"200000107";"Ian";"Wilson";"Idaho";0.04
+"200000910";"Owen";"Henderson";"Connecticut";0.0
+"200000406";"Ian";"May";"Massachusetts";0.1
+"200000535";"Ryan";"Marshall";"Tennessee";0.05
+"100000201";"Oliver";"Dickens";"Rhode Island";0.0
+"100000502";"Pippa";"Johnston";"Oregon";0.04
+"100000215";"Alan";"Murray";"West Virginia";0.05
+"400000625";"Eric";"Oliver";"New Mexico";0.01
+"200000347";"Jake";"Manning";"Nevada";0.02
+"100000019";"William";"Ince";"Louisiana";0.09
+"300000667";"Richard";"Watson";"Ohio";0.07
+"300000525";"Luke";"Mathis";"Illinoi";0.06
+"200000067";"Dan";"Ellison";"West Virginia";0.03
+"100000097";"Heather";"Wallace";"Wisconsin";0.09
+"100000151";"Connor";"Grant";"Vermont";0.1
+"200000784";"Dominic";"Hart";"Montan";0.04
+"300000392";"Yvonne";"Piper";"Texas";0.03
+"100000437";"Sean";"Sanderson";"Massachusetts";0.03
+"100000120";"Andrea";"Dickens";"Colorado";0.09
+"200000843";"Adam";"Gibson";"North Carolina";0.06
+"100000211";"Robert";"Wright";"Iowa";0.02
+"100000054";"Irene";"MacLeod";"Virginia";0.07
+"100000742";"Brandon";"Churchill";"Wyomin";0.03
+"300000553";"Zoe";"Ferguson";"Illinoi";0.06
+"100000818";"Tracey";"Sharp";"South Carolina";0.08
+"200000463";"Paul";"Reid";"Oklahoma";0.02
+"100000208";"Phil";"Lewis";"Missouri";0.0
+"300000409";"Stewart";"Scott";"Washington";0.09
+"100000278";"Irene";"Vaughan";"Arkansas";0.09
+"100000867";"Evan";"Abraham";"Alaska";0.1
+"100000281";"Sam";"Parsons";"South Carolina";0.04
+"100000925";"Andrew";"Bell";"Virginia";0.03
+"100000198";"Tim";"North";"Iowa";0.0
+"300000009";"Ruth";"Campbell";"Maine";0.03
+"100000807";"Gordon";"May";"Nebraska";0.06
+"100000288";"Liam";"King";"Texas";0.0
+"300000375";"Molly";"Black";"Oregon";0.01
+"100000003";"Liam";"Brown";"Arizona";0.09
+"200000426";"Andrew";"Jackson";"Texas";0.1
+"100000641";"Amanda";"Payne";"Virginia";0.1
+"400000449";"Edward";"Buckland";"Oregon";0.06
+"200000257";"Justin";"Underwood";"Michigan";0.05
+"100000455";"Eric";"Henderson";"Nebraska";0.05
+"200000046";"Lisa";"Berry";"Utah";0.0
+"100000246";"Justin";"Paterson";"North Carolina";0.01
+"200000108";"Piers";"Quinn";"Illinoi";0.03
+"400000027";"Rachel";"McGrath";"Utah";0.09
+"200000386";"Edward";"Marshall";"Kentucky";0.01
+"100000883";"Sarah";"Skinner";"Florida";0.04
+"100000453";"Kimberly";"Clark";"Nevada";0.06
+"100000782";"Penelope";"Rampling";"Oregon";0.08
+"100000280";"Stephanie";"Ogden";"Ohio";0.07
+"100000086";"Matt";"McGrath";"New Mexico";0.08
+"100000518";"Penelope";"Metcalfe";"Hawaii";0.09
+"200000924";"Gabrielle";"Blake";"Oklahoma";0.06
+"200000864";"Harry";"Hardacre";"Tennessee";0.1
+"200000664";"Harry";"Hodges";"North Carolina";0.07
+"100000207";"Blake";"Berry";"Mississippi";0.08
+"100000722";"Katherine";"Paterson";"Maryland";0.04
+"300000778";"Christopher";"McGrath";"Maine";0.08
+"300000487";"Heather";"Ross";"Connecticut";0.05
+"300000752";"Melanie";"Buckland";"Indiana";0.0
+"400000769";"Jason";"Walker";"Kentucky";0.03
+"300000427";"Dominic";"Welch";"Michigan";0.04
+"200000140";"Keith";"Harris";"Washington";0.03
+"300000006";"Ava";"Coleman";"Kentucky";0.04
+"200000897";"Boris";"Nash";"Texas";0.08
+"100000475";"Kevin";"James";"Hawaii";0.09
+"300000595";"Joe";"Ogden";"Nebraska";0.08
+"300000539";"Julia";"Allan";"Indiana";0.04
+"100000745";"Victor";"Wilson";"Nebraska";0.08
+"200000866";"James";"Gibson";"New Jersey";0.1
+"100000850";"Austin";"Chapman";"Iowa";0.06
+"100000059";"Phil";"Randall";"Michigan";0.06
+"200000811";"Sonia";"Peters";"Minnesota";0.0
+"100000031";"Megan";"Bell";"Alabama";0.03
+"200000465";"Una";"Lawrence";"Iowa";0.09
+"200000647";"Liam";"Wright";"North Carolina";0.0
+"100000185";"Cameron";"Short";"Arkansas";0.08
+"100000710";"Julia";"Harris";"Massachusetts";0.03
+"200000774";"Blake";"Vance";"California";0.09
+"200000863";"Theresa";"Quinn";"Utah";0.1
+"200000775";"Warren";"Roberts";"Arkansas";0.06
+"200000164";"Claire";"Walsh";"Idaho";0.09
+"100000899";"Amelia";"Parsons";"Wyomin";0.07
+"100000202";"Fiona";"Underwood";"Louisiana";0.1
+"100000084";"Dylan";"Fraser";"South Carolina";0.07
+"100000005";"Deirdre";"Pullman";"Pennsylvani";0.1
+"200000800";"Nathan";"Vaughan";"Texas";0.04
+"100000314";"Nicola";"Clarkson";"West Virginia";0.0
+"100000214";"Faith";"McDonald";"Mississippi";0.01
+"200000865";"Kimberly";"Cornish";"Kentucky";0.01
+"100000603";"Jane";"Walker";"Massachusetts";0.01
+"100000188";"Pippa";"Mathis";"North Dakota";0.04
+"100000436";"Bella";"Hemmings";"Arkansas";0.01
+"100000155";"Tim";"Arnold";"Louisiana";0.01
+"300000719";"Sebastian";"North";"Maryland";0.01
+"100000193";"Jane";"Wright";"North Carolina";0.08
+"100000217";"Carolyn";"Hart";"Pennsylvani";0.06
+"100000617";"Evan";"Metcalfe";"Pennsylvani";0.04
+"300000767";"Chloe";"Bond";"West Virginia";0.01
+"100000083";"Paul";"Mackay";"Illinoi";0.0
+"300000269";"Gabrielle";"Powell";"Missouri";0.1
+"300000686";"Stephen";"Taylor";"Colorado";0.03
+"100000895";"Hannah";"Terry";"Colorado";0.08
+"300000364";"Katherine";"Howard";"Minnesota";0.01
+"200000855";"John";"Campbell";"Georgia";0.02
+"100000126";"Benjamin";"Blake";"Louisiana";0.05
+"300000395";"Gavin";"Oliver";"Texas";0.01
+"200000265";"Tim";"Sanderson";"Nevada";0.05
+"200000099";"Robert";"May";"Rhode Island";0.09
+"100000606";"Ruth";"Mackenzie";"Texas";0.09
+"100000772";"Alexander";"Anderson";"Arkansas";0.01
+"100000563";"Joanne";"Mackenzie";"North Carolina";0.0
+"200000029";"Lucas";"Mackenzie";"Idaho";0.1
+"200000909";"Melanie";"Hunter";"Montan";0.08
+"100000571";"Connor";"Harris";"Kansas";0.02
+"100000876";"Tracey";"Pullman";"Wisconsin";0.09
+"300000466";"Amy";"Davies";"New York";0.02
+"300000358";"Simon";"Morrison";"Colorado";0.04
+"300000168";"Pippa";"Wilson";"Michigan";0.05
+"100000616";"Alison";"Cornish";"Alabama";0.1
+"200000165";"Paul";"Harris";"Massachusetts";0.09
+"100000053";"Madeleine";"Ellison";"Rhode Island";0.09
+"100000335";"Karen";"May";"Alaska";0.07
+"100000222";"Jessica";"Morrison";"Oklahoma";0.0
+"100000218";"Theresa";"Grant";"Nebraska";0.08
+"100000253";"Lauren";"Ball";"Louisiana";0.03
+"100000379";"Melanie";"Henderson";"Arkansas";0.02
+"100000838";"Felicity";"MacLeod";"Vermont";0.0
+"100000282";"Theresa";"Marshall";"Arizona";0.04
+"100000926";"Dan";"Johnston";"Rhode Island";0.06
+"100000423";"Wendy";"Metcalfe";"Texas";0.0
+"400000434";"Penelope";"Paterson";"Nebraska";0.01
+"100000573";"Sam";"Howard";"Alabama";0.09
+"100000893";"Donna";"Butler";"Iowa";0.08
+"300000732";"Joshua";"MacLeod";"South Dakota";0.01
+"400000600";"Nicola";"Graham";"Delaware";0.09
+"200000118";"Adam";"McGrath";"Washington";0.0
+"200000844";"Sarah";"Blake";"Massachusetts";0.09
+"100000228";"Virginia";"Howard";"New Jersey";0.01
+"100000012";"Benjamin";"Grant";"Utah";0.0
+"100000826";"Sean";"Burgess";"New Jersey";0.1
+"200000264";"Lily";"Davies";"Wyomin";0.03
+"100000312";"Blake";"Hudson";"Indiana";0.1
+"200000026";"Richard";"Fraser";"Rhode Island";0.0
+"100000798";"Karen";"Tucker";"Illinoi";0.07
+"100000090";"Wanda";"Henderson";"Texas";0.03
+"200000681";"Maria";"Welch";"North Dakota";0.05
+"300000703";"Diana";"Hodges";"Nebraska";0.05
+"300000374";"John";"Underwood";"Florida";0.02
+"300000705";"Joshua";"Coleman";"South Dakota";0.01
+"200000696";"Benjamin";"James";"Oregon";0.06
+"100000230";"Dan";"Terry";"Minnesota";0.04
+"400000830";"Trevor";"Mitchell";"Alabama";0.04
+"100000025";"Jennifer";"Hughes";"Rhode Island";0.1
+"100000317";"Liam";"Stewart";"Connecticut";0.09
+"400000442";"Dorothy";"Duncan";"Minnesota";0.06
+"300000394";"Julia";"Scott";"Colorado";0.09
+"400000741";"Fiona";"Rees";"Delaware";0.05
+"100000908";"Christopher";"Peake";"New York";0.09
+"400000488";"Sue";"Morrison";"Nevada";0.07
+"200000645";"Joan";"Abraham";"California";0.04
+"100000303";"Brian";"Russell";"Texas";0.03
+"200000295";"Tim";"Thomson";"Kansas";0.02
+"100000405";"Cameron";"Blake";"Alaska";0.08
+"100000244";"Brian";"Short";"Illinoi";0.01
+"100000129";"Peter";"Pullman";"Florida";0.08
+"300000551";"Cameron";"Knox";"South Carolina";0.04
+"300000167";"Cameron";"Ross";"North Dakota";0.07
+"100000324";"David";"Newman";"New Hampshire";0.05
+"400000432";"Abigail";"Poole";"Tennessee";0.01
+"200000263";"Gabrielle";"Marshall";"Michigan";0.07
+"200000698";"Jacob";"Sharp";"Nevada";0.05
+"200000461";"Alan";"Grant";"Mississippi";0.06
+"100000817";"Melanie";"Ogden";"Indiana";0.02
+"200000464";"Adam";"Dyer";"Idaho";0.04
+"200000391";"Gavin";"Berry";"West Virginia";0.0
+"300000905";"Amy";"Morgan";"Michigan";0.03
+"200000711";"Kylie";"Skinner";"Utah";0.0
+"100000152";"Justin";"Metcalfe";"Nevada";0.03
+"100000334";"Carolyn";"Roberts";"Idaho";0.08
+"200000549";"Frank";"Poole";"Rhode Island";0.01
+"400000754";"Emily";"Clarkson";"Virginia";0.1
+"100000789";"Brian";"Thomson";"Utah";0.1
+"100000932";"Abigail";"Ferguson";"Massachusetts";0.07
+"100000937";"Karen";"White";"Tennessee";0.09
+"400000541";"Victoria";"Kerr";"Arkansas";0.01
+"100000095";"Rebecca";"Knox";"California";0.04
+"100000382";"Anthony";"Chapman";"Maryland";0.08
+"400000433";"Rose";"Robertson";"Oklahoma";0.06
+"400000602";"Molly";"Hart";"Maine";0.0
+"300000494";"Jonathan";"White";"Utah";0.05
+"400000048";"Carolyn";"Lewis";"Minnesota";0.01
+"300000689";"Warren";"Ferguson";"Texas";0.03
+"100000163";"Amanda";"Morgan";"Maine";0.08
+"200000258";"Owen";"McGrath";"Arkansas";0.08
+"200000765";"Paul";"Baker";"New Jersey";0.0
+"300000004";"Trevor";"Parr";"Michigan";0.04
+"200000104";"Diana";"McDonald";"New Hampshire";0.04
+"100000478";"Bernadette";"Forsyth";"Michigan";0.05
+"200000674";"William";"Lyman";"Iowa";0.09
+"100000297";"Sophie";"Thomson";"Pennsylvani";0.0
+"400000770";"Bella";"Vaughan";"Arkansas";0.0
+"100000381";"Kimberly";"Bond";"Iowa";0.03
+"100000077";"Frank";"Brown";"Alaska";0.08
+"100000254";"Stewart";"Rees";"Connecticut";0.06
+"200000022";"Jason";"Butler";"Missouri";0.02
+"100000849";"Lily";"Gill";"Arkansas";0.08
+"300000718";"Colin";"Hill";"Massachusetts";0.05
+"100000323";"Joanne";"Fisher";"South Dakota";0.1
+"100000183";"Christian";"Piper";"Kentucky";0.02
+"100000901";"Rose";"Butler";"Missouri";0.05
+"300000511";"Felicity";"Wallace";"Louisiana";0.08
+"300000112";"Nathan";"Paterson";"Alaska";0.09
+"200000353";"Gordon";"Ellison";"Oregon";0.07
+"200000538";"Robert";"Burgess";"Alaska";0.02
+"300000733";"Peter";"Henderson";"Louisiana";0.06
+"300000593";"Amanda";"Simpson";"Virginia";0.04
+"300000410";"Andrew";"Grant";"Ohio";0.05
+"200000785";"Joshua";"Henderson";"Connecticut";0.03
+"200000660";"Keith";"Parr";"Maryland";0.06
+"100000082";"Neil";"Robertson";"Utah";0.05
+"100000196";"Jennifer";"Slater";"Nebraska";0.04
+"100000318";"Anna";"MacLeod";"Oregon";0.05
+"200000764";"Carl";"Arnold";"Rhode Island";0.04
+"200000407";"Charles";"Gibson";"Texas";0.02
+"100000287";"Peter";"Lyman";"Michigan";0.09
+"400000473";"James";"Kerr";"Idaho";0.05
+"100000325";"Boris";"Walker";"Arizona";0.04
+"100000125";"Jonathan";"MacDonald";"Oregon";0.09
+"400000756";"Joanne";"May";"Nebraska";0.1
+"300000635";"Kimberly";"Walsh";"Hawaii";0.1
+"400000780";"Victor";"Quinn";"South Carolina";0.1
+"200000590";"Stephen";"Fisher";"Washington";0.07
+"300000032";"Warren";"Edmunds";"Rhode Island";0.05
+"200000355";"Sebastian";"Welch";"Utah";0.03
+"300000365";"Dorothy";"Butler";"Nebraska";0.06
+"400000556";"Irene";"Oliver";"Nebraska";0.02
+"400000737";"Katherine";"Clark";"Colorado";0.02
+"100000035";"Karen";"Dyer";"Mississippi";0.02
+"100000435";"Isaac";"Rutherford";"Massachusetts";0.02
+"100000128";"Virginia";"Berry";"Alabama";0.08
+"200000580";"Charles";"Arnold";"Alaska";0.09
+"100000319";"John";"Hemmings";"Alabama";0.1
+"100000296";"Penelope";"Clarkson";"Ohio";0.07
+"100000275";"Victor";"Avery";"Massachusetts";0.06
+"100000578";"Nathan";"Davidson";"Tennessee";0.03
+"100000189";"Wendy";"Morrison";"Virginia";0.0
+"200000804";"Yvonne";"Burgess";"Kentucky";0.06
+"100000062";"Fiona";"Bell";"North Dakota";0.03
+"200000065";"Maria";"Hughes";"Maine";0.08
+"300000613";"Paul";"Ellison";"Ohio";0.04
+"200000504";"Jason";"Lyman";"Iowa";0.0
+"100000761";"Wendy";"Hardacre";"Arkansas";0.03
+"100000343";"Eric";"Vance";"Hawaii";0.03
+"100000206";"Wanda";"Short";"Mississippi";0.09
+"300000351";"Nicholas";"James";"New Hampshire";0.01
+"300000439";"Tim";"Miller";"Nevada";0.01
+"100000177";"Thomas";"Bailey";"Colorado";0.04
+"100000565";"Grace";"Scott";"Iowa";0.07
+"200000356";"Richard";"Hamilton";"Alabama";0.05
+"100000413";"Boris";"Burgess";"Minnesota";0.02
+"100000861";"Sally";"Graham";"Minnesota";0.07
+"200000425";"Joshua";"Ince";"Iowa";0.07
+"100000846";"Felicity";"Butler";"New Mexico";0.03
+"300000598";"Blake";"MacDonald";"Hawaii";0.07
+"100000808";"Steven";"Davidson";"Rhode Island";0.09
+"100000336";"Tracey";"Edmunds";"Louisiana";0.09
+"100000744";"Ruth";"Ince";"Georgia";0.04
+"200000068";"Lucas";"Piper";"Arizona";0.04
+"100000016";"Nicholas";"Newman";"Ohio";0.01
+"100000085";"Pippa";"Buckland";"Missouri";0.04
+"100000310";"Felicity";"Hodges";"Iowa";0.05
+"400000114";"Fiona";"Mills";"New Jersey";0.09
+"200000014";"Thomas";"Lawrence";"Minnesota";0.06
+"100000283";"Stephanie";"Smith";"Iowa";0.02
+"100000052";"Kimberly";"James";"Pennsylvani";0.02
+"100000117";"Amy";"McGrath";"Colorado";0.01
+"400000739";"Yvonne";"Bower";"Michigan";0.1
+"300000596";"Lillian";"Kerr";"New Jersey";0.06
+"400000837";"Sean";"Rampling";"South Carolina";0.05
+"400000915";"Melanie";"Hemmings";"California";0.01
+"200000103";"Nicola";"Powell";"Maryland";0.02
+"100000420";"Samantha";"Mackenzie";"Idaho";0.01
+"100000321";"Adam";"Sharp";"New Jersey";0.04
+"200000373";"Lucas";"Gill";"Kentucky";0.08
+"100000935";"Felicity";"Miller";"Iowa";0.05
+"100000137";"Sarah";"Wallace";"Kentucky";0.05
+"300000794";"Cameron";"Alsop";"Texas";0.02
+"100000848";"Tim";"Hamilton";"Delaware";0.01
+"200000609";"Leonard";"Brown";"Missouri";0.0
+"100000360";"Emma";"Fisher";"Wyomin";0.03
+"100000853";"Claire";"Hudson";"Iowa";0.03
+"300000509";"Wendy";"Rampling";"Maine";0.02
+"300000753";"David";"Mills";"Nebraska";0.03
+"300000779";"Deirdre";"Parsons";"Montan";0.1
+"200000507";"Isaac";"Gill";"Illinoi";0.08
+"200000799";"Leonard";"Ogden";"Connecticut";0.07
+"300000526";"Yvonne";"Metcalfe";"Nebraska";0.03
+"200000751";"Brian";"Bond";"Wisconsin";0.09
+"100000080";"David";"Peters";"Oregon";0.06
+"200000584";"Alan";"Metcalfe";"Massachusetts";0.1
+"200000532";"Frank";"Parr";"Alabama";0.0
+"400000555";"Zoe";"Murray";"Missouri";0.07
+"100000337";"Tracey";"Langdon";"Pennsylvani";0.06
+"200000669";"Jake";"Rutherford";"Hawaii";0.06
+"100000380";"Piers";"Walker";"Ohio";0.04
+"400000397";"Madeleine";"Kerr";"Illinoi";0.04
+"100000891";"Alexandra";"Mathis";"Massachusetts";0.05
+"400000757";"Joanne";"King";"Delaware";0.05
+"100000056";"Liam";"Gibson";"Florida";0.07
+"100000138";"Richard";"Hemmings";"Rhode Island";0.0
+"200000583";"Joanne";"Mills";"Texas";0.0
+"100000274";"Rose";"Russell";"Texas";0.1
+"100000050";"Charles";"Nolan";"Pennsylvani";0.03
+"200000621";"Andrew";"Hill";"New Hampshire";0.02
+"300000302";"William";"Wilkins";"Nevada";0.07
+"100000404";"Stewart";"Bell";"Indiana";0.07
+"100000307";"Adrian";"Hill";"Indiana";0.03
+"200000802";"Eric";"Slater";"Kentucky";0.1
+"100000545";"Julia";"Ellison";"North Carolina";0.08
+"200000460";"Olivia";"Turner";"Ohio";0.02
+"100000627";"Brian";"Slater";"Nevada";0.1
+"200000620";"Simon";"Slater";"Illinoi";0.04
+"100000892";"Christopher";"Anderson";"New Mexico";0.02
+"100000708";"Jan";"Roberts";"Massachusetts";0.1
+"200000259";"Alison";"Taylor";"Connecticut";0.05
+"100000859";"Amy";"Glover";"Missouri";0.06
+"100000058";"Piers";"Morgan";"Colorado";0.09
+"200000911";"Julian";"Hunter";"Oklahoma";0.08
+"100000250";"Amelia";"Mathis";"South Carolina";0.0
+"300000813";"Diane";"Piper";"South Dakota";0.01
+"200000533";"Abigail";"Gibson";"Arkansas";0.01
+"200000939";"Alan";"Dyer";"Wisconsin";0.07
+"100000369";"Joan";"Quinn";"North Carolina";0.08
+"200000106";"Ella";"Bond";"South Dakota";0.07
+"100000783";"Christopher";"Davies";"New Hampshire";0.08
+"100000127";"Emma";"Fraser";"Virginia";0.08
+"100000929";"Fiona";"Wright";"Vermont";0.08
+"100000020";"Audrey";"Jones";"Colorado";0.09
+"200000714";"Ian";"Manning";"Connecticut";0.09
+"200000748";"Lucas";"Graham";"Washington";0.01
+"100000194";"James";"McGrath";"South Dakota";0.07
+"100000239";"Natalie";"Welch";"West Virginia";0.07
+"200000623";"Brian";"Mitchell";"Maine";0.06
+"300000651";"Una";"Jones";"Montan";0.01
+"100000823";"Trevor";"Tucker";"Ohio";0.07
+"200000348";"Brandon";"Anderson";"Mississippi";0.06
+"200000388";"Gavin";"Sanderson";"Georgia";0.03
+"100000836";"Bella";"Metcalfe";"Wisconsin";0.05
+"100000241";"Oliver";"Powell";"Georgia";0.03
+"200000713";"Liam";"Greene";"South Dakota";0.03
+"300000675";"Matt";"Davies";"Minnesota";0.04
+"100000693";"Kevin";"Glover";"Pennsylvani";0.02
+"300000857";"Sophie";"Ince";"Maine";0.1
+"100000403";"Ruth";"Simpson";"Arkansas";0.02
+"300000270";"Heather";"Black";"Nebraska";0.01
+"400000738";"Natalie";"Tucker";"North Dakota";0.03
+"100000575";"Michael";"Davidson";"Hawaii";0.08
+"400000497";"Anna";"Chapman";"California";0.06
+"100000889";"Stephen";"Bailey";"Texas";0.08
+"300000787";"Neil";"Sanderson";"West Virginia";0.06
+"100000933";"Gavin";"Harris";"North Dakota";0.04
+"100000289";"Olivia";"Peake";"Utah";0.06
+"300000637";"Carolyn";"Mills";"Hawaii";0.04
+"100000036";"Yvonne";"Thomson";"Delaware";0.01
+"300000650";"Abigail";"Short";"Iowa";0.01
+"100000907";"Edward";"Chapman";"Montan";0.06
+"400000638";"Irene";"Gill";"Wisconsin";0.06
+"400000376";"Megan";"Forsyth";"Oregon";0.07
+"300000845";"Christopher";"Ogden";"Rhode Island";0.08
+"300000366";"Dorothy";"Paige";"New Hampshire";0.0
+"100000918";"Deirdre";"Nolan";"New Jersey";0.04
+"400000075";"Olivia";"Dowd";"Michigan";0.06
+"200000673";"Cameron";"Dyer";"Arizona";0.05
+"400000474";"Harry";"Peake";"New York";0.04
+"200000479";"Connor";"MacLeod";"Arizona";0.04
+"200000581";"Alexander";"Hill";"Ohio";0.03
+"200000354";"Ian";"Kerr";"Rhode Island";0.04
+"200000699";"Jason";"Cameron";"Nevada";0.08
+"100000678";"Victoria";"Thomson";"Arizona";0.07
+"200000727";"Steven";"Jackson";"Wisconsin";0.01
+"200000589";"David";"Cameron";"Missouri";0.01
+"100000055";"Cameron";"Taylor";"Massachusetts";0.08
+"400000431";"Jan";"Avery";"Kentucky";0.08
+"100000806";"Fiona";"Allan";"Maryland";0.0
+"400000654";"Simon";"Lawrence";"Utah";0.0
+"400000692";"Hannah";"Hudson";"North Carolina";0.01
+"300000624";"Tim";"Paterson";"West Virginia";0.09
+"100000894";"Faith";"Buckland";"Texas";0.01
+"200000750";"Anthony";"Mackenzie";"Pennsylvani";0.0
+"200000828";"Christopher";"Langdon";"Georgia";0.04
+"200000649";"Isaac";"Quinn";"South Dakota";0.02
+"200000267";"Luke";"MacLeod";"Arkansas";0.0
+"200000522";"Benjamin";"Sutherland";"Alaska";0.08
+"300000599";"Victoria";"Forsyth";"Delaware";0.07
+"100000160";"Alexander";"Walker";"Kentucky";0.01
+"100000045";"Dorothy";"Johnston";"Pennsylvani";0.1
+"100000790";"Sonia";"Hughes";"Michigan";0.09
+"200000886";"Joe";"Baker";"Texas";0.09
+"100000139";"Nicola";"Rampling";"Washington";0.0
+"100000561";"Lillian";"Metcalfe";"Kansas";0.05
+"200000766";"Keith";"Ross";"Alaska";0.02
+"300000111";"Kirill";"Eremenko";"Connecticut";0.05
+"100000298";"Anna";"James";"Vermont";0.09
+"300000786";"Bernadette";"Jackson";"New York";0.07
+"100000147";"Jacob";"Metcalfe";"Pennsylvani";0.06
+"200000585";"Julian";"Russell";"Maine";0.09
+"100000245";"Matt";"Graham";"Alabama";0.05
+"200000491";"Piers";"Jones";"Rhode Island";0.1
+"200000805";"John";"Cameron";"Rhode Island";0.1
+"200000333";"David";"Morrison";"Mississippi";0.0
+"200000415";"Jake";"Miller";"South Dakota";0.09
+"400000399";"Amy";"Miller";"Vermont";0.04
+"200000648";"Gavin";"Martin";"Vermont";0.05
+"200000262";"Zoe";"Clarkson";"New Jersey";0.0
+"100000131";"Anna";"Wright";"Texas";0.0
+"100000870";"Max";"Rees";"South Dakota";0.06
+"200000390";"Joseph";"Henderson";"Connecticut";0.03
+"100000338";"Jake";"Dyer";"California";0.01
+"100000934";"Heather";"Abraham";"Tennessee";0.1
+"100000242";"Amanda";"Rees";"Nebraska";0.04
+"200000372";"Thomas";"Martin";"Idaho";0.02
+"300000615";"Penelope";"Grant";"Ohio";0.04
+"300000469";"Peter";"Parsons";"Montan";0.02
+"100000088";"Jasmine";"Piper";"West Virginia";0.06
+"100000057";"Donna";"Knox";"Mississippi";0.0
+"300000512";"Jasmine";"Marshall";"West Virginia";0.09
+"100000401";"Leonard";"Paterson";"Vermont";0.03
+"100000917";"Andrea";"Newman";"Florida";0.06
+"100000243";"Paul";"Davies";"Rhode Island";0.1
+"100000816";"Cameron";"Chapman";"North Dakota";0.08
+"200000630";"Sam";"Powell";"Maine";0.06
+"100000562";"Brandon";"MacDonald";"Connecticut";0.05
+"100000874";"Julia";"Alsop";"North Carolina";0.03
+"100000276";"Brandon";"Miller";"Oregon";0.05
+"100000200";"Karen";"Mackenzie";"New Jersey";0.05
+"100000869";"Justin";"Chapman";"North Dakota";0.04
+"300000531";"Felicity";"Vaughan";"Washington";0.02
+"100000213";"Tracey";"Grant";"Arkansas";0.1
+"100000179";"Dan";"Metcalfe";"Oklahoma";0.07
+"100000223";"Lucas";"Langdon";"Tennessee";0.02
+"200000792";"Victor";"Mathis";"Missouri";0.05
+"300000668";"Anthony";"Ellison";"Ohio";0.0
+"100000150";"Michelle";"Lee";"Tennessee";0.07
+"100000098";"Maria";"Johnston";"Colorado";0.04
+"200000697";"Paul";"Wright";"Illinoi";0.0
+"200000490";"Abigail";"Fisher";"Oklahoma";0.01
+"100000159";"Lucas";"Lawrence";"Texas";0.09
+"100000570";"Nicola";"Hill";"New York";0.1
+"200000300";"Owen";"Smith";"Vermont";0.05
+"400000471";"Joan";"Blake";"Vermont";0.1
+"100000499";"Deirdre";"Greene";"South Dakota";0.05
+"300000776";"Connor";"Nolan";"Massachusetts";0.06
