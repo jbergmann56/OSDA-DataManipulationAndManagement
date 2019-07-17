@@ -1,43 +1,47 @@
--- 1. Create a schema named “MissingPersons”
-create schema MissingPersons; 
-use MissingPersons;
+-- 1. Using a union on the world.country table, combine all countries (repeating) with a life expectancy of > 80 years or a GNP > 1000000, with no repeats.   
+select a.`Name` as Country
+from world.country as a
+where LifeExpectancy > 80
 
--- 2. Create a table in “MissingPersons” schema named “person”, with the following qualities: 
--- Fields:  ID, LastName, FirstName, Age
--- Primary Key: ID
--- Field Constraints: Not Nullable
- 
-CREATE TABLE MissingPersons (
-  ID int not null, 
-  LastName varchar(50), 
-  FirstName varchar(50), 
-  Age int,
-  PRIMARY KEY (ID)
-  );
+union 
 
--- 3. Alter the table to include (add) a “Gender” field.
-ALTER TABLE MissingPersons
-ADD Gender char(1);
+select a.`Name` as Country
+from world.country as a  
+where GNP > 1000000;
 
--- 4.   Insert the following records into the classicmodels.customers table: 
-insert into MissingPersons (ID, LastName, FirstName, Age, Gender)
-values 
-(1,'Doe','Jane',42,'F'),
-(2,'Doe','John',57,'M'),
-(3,'Presley','Elvis',82,'M'),
-(4,'Shakur','Tupac',49,'M')
+-- 2.  List all official languages spoken in the 'Southeast Asia' region
+select distinct b.`language`
+from world.country as a  
+inner join  world.countrylanguage as b on a.`code` = b.countrycode and b.isofficial = 'T'
+where a.region = 'Southeast Asia';
 
--- 5. Delete the record with “LastName” = “Presley”
--- if error SET SQL_SAFE_UPDATES = 0;
-Delete from  MissingPersons WHERE LastName = 'Presley';
+-- 3.  List all the countries in North America, then match (left join)  the “percentage” of the population that speaks English.
+select distinct a.`name` as country, b.`language`, b.Percentage
+from world.country as a  
+Left join  world.countrylanguage as b on a.`code` = b.countrycode and b.`language` = 'English' /* and b.Percentage >= 20.0 */
+where a.Continent = 'North America'
+order by b.Percentage desc;
 
--- 6. Update the LastName in the record that contains “ID” = 4 to “LastName” = ‘Crooks’
-update  MissingPersons
-SET LastName = 'Crooks'
-where ID = 4;
+-- 4.  In the “world” schema, obtain the name of all cities in North America that have a population over 1M, where the primary language is English or Spanish (with repeats). 
+select a.continent, a.`name` as Country, b.`Language` as Official_Language, c.`name` as City, c.population
+from world.country as a 
+inner join world.countrylanguage as b on a.`code` = b.countrycode and b.`language` = 'English' and b.isofficial = 'T' 
+inner join world.city as c on a.`code` = c.countrycode and c.population > 1000000
+where a.Continent = 'North America'
 
--- 7. drop the column "FirstName" from the table
-ALTER TABLE MissingPersons DROP FirstName;
+union all 
 
--- 7. drop the "person" from the table
-Drop TABLE MissingPersons;
+select a.continent, a.`name` as Country, b.`Language`as Official_Language,  c.`name` as City, c.population
+from world.country as a 
+inner join world.countrylanguage as b on a.`code` = b.countrycode and b.`language` = 'Spanish' and b.isofficial = 'T' 
+inner join world.city as c on a.`code` = c.countrycode and c.population > 1000000
+where a.Continent = 'North America'
+;
+
+
+
+
+
+
+
+
