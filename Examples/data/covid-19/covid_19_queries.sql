@@ -166,7 +166,7 @@ FROM us_census_fips AS a
 INNER JOIN covid_19.us_counties AS b ON a.fips = b.fips AND b.`date` = (SELECT MAX(d.`date`) from us_counties AS d)
 ORDER BY b.deaths/a.POPESTIMATE2019 DESC;
 
-#Covid-19 deaths per capita
+#Covid-19 cases per capita
 SELECT a.STNAME, a.CTYNAME, a.POPESTIMATE2019, 
 b.cases/a.POPESTIMATE2019 AS covid_cases_per_capita, 
 a.deaths2019/a.POPESTIMATE2019 AS deaths_per_capita_2019, 
