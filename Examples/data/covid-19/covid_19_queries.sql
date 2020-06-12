@@ -117,3 +117,62 @@ FROM us_states_ne_info;
 DROP TABLE us_states_ne_info;
 
 #Class 4 - Joining and Merginig Data
+USE covid_19;
+
+#Explore US Census Data
+SELECT * 
+FROM us_census_fips AS a
+LIMIT 10;
+
+#Explore Covid-19 - US County Data
+SELECT *
+FROM us_counties AS b
+LIMIT 10; 
+
+#Join Covid-19 & US Counties data
+SELECT a.*, b.* 
+FROM us_census_fips AS a
+LEFT JOIN covid_19.us_counties as b on a.fips = b.fips;
+
+#Join Covid-19 & US Counties data - no matches
+SELECT a.STNAME, a.CTYNAME, b.* 
+FROM us_census_fips AS a
+LEFT JOIN covid_19.us_counties as b on a.fips = b.fips
+WHERE b.county IS NULL;
+
+#Join Covid-19 & US Counties data - Population Information
+SELECT a.STNAME, a.CTYNAME, a.POPESTIMATE2019, a.deaths2019, b.* 
+FROM us_census_fips AS a
+INNER JOIN covid_19.us_counties as b on a.fips = b.fips
+ORDER BY a.fips, `date` DESC;
+
+#what is the most recent day in the dataset? 
+SELECT MAX(a.`date`)
+from us_counties AS a;
+
+#Join Covid-19 & US Counties data - no matches
+SELECT a.STNAME, a.CTYNAME, a.POPESTIMATE2019, a.deaths2019, b.* 
+FROM us_census_fips AS a
+INNER JOIN covid_19.us_counties AS b ON a.fips = b.fips AND b.`date` = (SELECT MAX(d.`date`) from us_counties AS d)
+ORDER BY a.fips, `date` DESC;
+
+#Covide-19 deaths per capita
+SELECT a.STNAME, a.CTYNAME, 
+b.cases/a.POPESTIMATE2019 AS covid_cases_per_capita, 
+a.deaths2019/a.POPESTIMATE2019 AS deaths_per_capita_2019, 
+b.deaths/a.POPESTIMATE2019 AS covid_deaths_per_capita_2019, 
+b.* 
+FROM us_census_fips AS a
+INNER JOIN covid_19.us_counties AS b ON a.fips = b.fips AND b.`date` = (SELECT MAX(d.`date`) from us_counties AS d)
+ORDER BY b.deaths/a.POPESTIMATE2019 DESC;
+
+#Covid-19 deaths per capita
+SELECT a.STNAME, a.CTYNAME, a.POPESTIMATE2019, 
+b.cases/a.POPESTIMATE2019 AS covid_cases_per_capita, 
+a.deaths2019/a.POPESTIMATE2019 AS deaths_per_capita_2019, 
+b.deaths/a.POPESTIMATE2019 AS covid_deaths_per_capita_2019, 
+b.* 
+FROM us_census_fips AS a
+INNER JOIN covid_19.us_counties AS b ON a.fips = b.fips AND b.`date` = (SELECT MAX(d.`date`) from us_counties AS d)
+ORDER BY b.cases/a.POPESTIMATE2019 DESC;
+
