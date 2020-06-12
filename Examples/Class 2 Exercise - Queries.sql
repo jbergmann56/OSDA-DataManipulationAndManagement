@@ -28,5 +28,5 @@ ORDER BY percentage DESC;
 -- 6. In the world.country table, compare the average life expectancy of people, in a variety of ways. 
 SELECT `code` AS country_code, `name` AS country, LifeExpectancy AS life_expectancy, GNP, Population, GNP/Population AS gnp_per_capita
 FROM world.country
-WHERE Ccntinent = 'Europe'
+WHERE continent = 'Europe'
 ORDER BY gnp_per_capita DESC;

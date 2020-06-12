@@ -5,7 +5,7 @@ USE missingpersons;
 /* #2.Create a table in “MissingPersons” schema named “Person”, with the following qualities:  
 Fields:  ID, LastName, FirstName, Age
 Primary Key: ID
-Field Constraints: Not Nullable
+Field Constraints: ID - Not Nullable
 */
 CREATE TABLE person (
   ID INT NOT NULL, 
@@ -31,9 +31,10 @@ VALUES
 
 #5. Delete the record with “lastname” = “Presley” 
 -- if error run the followin code:  SET SQL_SAFE_UPDATES = 0;
-DELETE FROM person WHERE lastname = 'Presley';
+DELETE FROM missingpersons.person 
+WHERE lastname = 'Presley';
 
-#6. Update the LastName in the record that contains “ID” = 4 to “LastName” = ‘Crooks’ 
+#6. Update the LastName in the record that contains “ID” = 4 --> “LastName” = ‘Crooks’ 
 UPDATE missingpersons.person
 SET lastname = 'Crooks' 
 WHERE ID = 4;
@@ -44,3 +45,5 @@ DROP firstname;
 
 #8. drop the “Person” table from the “MissingPersons” schema.
 DROP TABLE missingpersons.person; 
+DROP DATABASE missingpersons; 
+

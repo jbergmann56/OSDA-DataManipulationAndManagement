@@ -1,3 +1,5 @@
+USE covid_19; #sleect the covid_19 database for active use
+
 #Class 2 - Writing Queries
 # What % of COVID-19 Cases vs. COVID-Related Deaths 
 SELECT WEEK(`date`) as covid19_week, SUM(cases) AS covid19_cases_tot, SUM(deaths) AS covid19_deaths_total,
@@ -60,7 +62,58 @@ FROM covid_19.us_counties AS a
 ORDER BY a.fips;
 
 #Class 3 - Extracting and Storing Data
-#creating schema/tables - see "covid_19_db.sql"
+#create view with Nebraska counties only 
+CREATE VIEW us_states_ne AS 
+SELECT `date` AS covid_date, state, fips, county, cases, deaths
+FROM covid_19.us_counties
+WHERE state = 'Nebraska'; 
 
+#utilize view in sql select query
+SELECT * 
+FROM us_states_ne
+WHERE county IN ('Douglas','Lancaster','Sarpy')
+ORDER BY county, covid_date;
+
+#dropping view
+DROP VIEW us_states_ne;
+
+#creating table using constraints & primary key
+CREATE TABLE us_states_ne_info (
+	covid_date DATETIME NOT NULL,
+	state TEXT, 
+	fips INT, 
+	county TEXT, 
+	cases INT, 
+	deaths INT, 
+  PRIMARY KEY (covid_date, fips)
+);
+
+INSERT INTO us_states_ne_info (covid_date, state, fips, county, cases, deaths) 
+SELECT `date` AS covid_date, state, fips, county, cases, deaths
+FROM covid_19.us_counties
+WHERE state = 'Nebraska'; 
+
+SELECT * 
+FROM us_states_ne_info
+WHERE county IN ('Douglas','Lancaster','Sarpy')
+ORDER BY county, covid_date;
+
+DELETE FROM us_states_ne_info
+WHERE county = 'Douglas';
+
+SELECT * 
+FROM us_states_ne_info
+WHERE county IN ('Douglas','Lancaster','Sarpy')
+ORDER BY county, covid_date;
+
+#example of not using a WHERE clause
+UPDATE us_states_ne_info
+SET county = NULL;
+
+#check - all county values are set to NULL!!!!!!!!!!!!!
+SELECT * 
+FROM us_states_ne_info;
+
+DROP TABLE us_states_ne_info;
 
 #Class 4 - Joining and Merginig Data
