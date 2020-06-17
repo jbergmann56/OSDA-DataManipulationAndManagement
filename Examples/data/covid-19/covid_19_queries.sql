@@ -176,3 +176,7 @@ FROM us_census_fips AS a
 INNER JOIN covid_19.us_counties AS b ON a.fips = b.fips AND b.`date` = (SELECT MAX(d.`date`) from us_counties AS d)
 ORDER BY b.cases/a.POPESTIMATE2019 DESC;
 
+#Class 5 - Cleansing Data Using SQL
+USE covid_19;
+
+#Class 6 - Dimensional Modeling - COVID Data
