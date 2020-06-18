@@ -179,4 +179,35 @@ ORDER BY b.cases/a.POPESTIMATE2019 DESC;
 #Class 5 - Cleansing Data Using SQL
 USE covid_19;
 
+#duplicates by date
+SELECT `date`
+FROM covid_19.us_states;
+
+#duplicates by aggregation
+SELECT `date`, SUM(1) AS dup_count
+FROM covid_19.us_states
+GROUP BY `date`
+HAVING dup_count > 1;
+
+#Removing Duplicates using DISTINCT Keyword - List all dates in covid_19 dataset
+SELECT DISTINCT `date` as covid19_date
+FROM covid_19.us_states
+ORDER BY `date` DESC;
+
+#get number of cased by monyh from COVID-19 Date Field
+SELECT MONTH(`date`) as covid19_date, SUM(CASES) AS total_cases
+FROM covid_19.us_states
+GROUP BY MONTH(`date`);
+
+#Apply date functions to COVID-19 Dataset
+SELECT DISTINCT `date` as covid19_date, DATEDIFF(CURDATE(), `date`), DAY(`date`),MONTH(`date`),YEAR(`date`), DAYOFWEEK(`date`)
+FROM covid_19.us_states;
+
+/* String Examples */ 
+SELECT CONCAT(county,', ', state) AS full_name, INSTR(county,'douglas') as douglas_county, TRIM(LEADING 'Doug' FROM county ) las_county, 
+REPLACE(county,'douglas','douglas2'), LCASE(county), LENGTH(county), SUBSTRING(county, 1, 5)
+FROM covid_19.us_counties
+WHERE county LIKE'doug_as%'
+ORDER by full_name DESC;
+
 #Class 6 - Dimensional Modeling - COVID Data
