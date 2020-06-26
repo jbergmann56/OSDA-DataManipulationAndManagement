@@ -14,7 +14,7 @@ SUM(deaths)/SUM(cases) AS covid19_deaths_pcnt
 FROM covid_19.us_states
 WHERE state in ('nebraska','iowa')
 GROUP BY state, WEEK(date)
-ORDER BY WEEK(date),state; 
+ORDER BY WEEK(`date`), state; 
 
 #overall covid19 death % - 5.58%
 SELECT state, SUM(deaths)/SUM(cases) AS covid19_deaths_pcnt 
@@ -355,5 +355,71 @@ FROM covid_19.us_states a
 LEFT JOIN covid_19.us_census_fips b on a.FIPS = b.STATE and b.SUMLEV = '40'
 WHERE WEEK(a.`date`) = 20
 AND a.state in ('iowa', 'nebraska');
+
+#Class 7 - Data Quality & Data Dictionary
+#Data Quality examples using SQL
+#Key Fields - Check for uniqueness by aggregation
+SELECT `date`, fips, SUM(1) as key_check
+FROM covid_19.us_counties
+GROUP BY `date`, fips;
+
+#count # of records to ensure uniqueness - n = 168,918
+SELECT COUNT(*)
+FROM covid_19.us_counties;
+
+#check for null values in the dataset - numeric variable
+SELECT SUM(ISNULL(RESIDUAL2010)) 
+FROM covid_19.us_census_fips;
+
+#check for null values in the dataset - date variable
+SELECT *
+FROM covid_19.us_census_fips
+WHERE ISNULL(`date`) = 1;
+
+#check values in the dataset - string variable
+SELECT STNAME, SUM(1) AS rec_cnt
+FROM covid_19.us_census_fips
+GROUP BY STNAME;
+
+#if string value is null, group by returns the number of null vaules as a row in the query - world example
+USE world;
+SELECT headofstate, SUM(1) AS rec_cnt
+FROM world.country
+WHERE headofstate IS NULL 
+OR headofstate = ''
+GROUP BY headofstate;
+
+#fix blank and null vaues - return 3 records with blank values
+SELECT *, 
+CASE WHEN headofstate IS NULL THEN 'ALERT!!!'
+WHEN headofstate = '' THEN 'J.Bergmann' ELSE headofstate END AS headofstate_new
+FROM world.country
+WHERE headofstate IS NULL 
+OR headofstate = '';
+
+#calculate the range of values over a numeric variable
+USE covid_19;
+SELECT MAX(deaths) AS max_deaths, MIN(deaths) AS min_deaths, AVG(deaths) AS avg_deaths, STD(deaths) AS std_deaths 
+FROM covid_19.us_counties;
+
+#return records with # of deaths in a day > 200 
+SELECT *
+FROM covid_19.us_counties
+WHERE deaths = 3246;
+
+#Apply Data Dictionary Rules to COVID-19 dataset (FROM: Data Dictionay - COVID-19.xlsx)
+SELECT DISTINCT division, 
+CASE WHEN division = 1 THEN 'New England'
+WHEN division = 2 THEN 'Middle Atlantic'
+WHEN division = 3 THEN 'East North Central' 
+WHEN division = 4 THEN 'West North Central' 
+WHEN division = 5 THEN 'South Atlantic'
+WHEN division = 6 THEN 'East South Central'
+WHEN division = 7 THEN 'West South Central'
+WHEN division = 8 THEN 'Mountain'
+WHEN division = 9 THEN 'Pacific'
+ELSE 'NEED INFO' END AS division_labeled
+FROM covid_19.us_census_fips
+ORDER BY division;	
 
 
