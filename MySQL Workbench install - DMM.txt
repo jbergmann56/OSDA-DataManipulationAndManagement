@@ -1,0 +1,10 @@
+Step 1. Install Database Server  (YouTube Video: https://www.youtube.com/watch?v=2HQC94la6go) 	
+	a. Follow Link: https://dev.mysql.com/downloads/workbench/ --> Select Operating System --> MySQL Installer 
+	b. Download and run installer - Ignore Sign-up for an Oracle Web Account
+			
+Step 2: Check Setup 
+	a. Open MySQL Workbench - Add a MySQL Connection (+)
+        	i. Set Connection Name:  Azure MySql ODSA
+		ii. Hostname:  odsa.mysql.database.azure.com
+		iii. Set username/password  (given password - ask jeremy@jbanalyticsconsulting.com for access/schemas)
+	d. Run Example -- SELECT * FROM world.city;

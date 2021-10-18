@@ -177,7 +177,7 @@ CREATE TABLE film_text (
   description TEXT,
   PRIMARY KEY  (film_id),
   FULLTEXT KEY idx_title_description (title,description)
-)ENGINE=MyISAM DEFAULT CHARSET=utf8;
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- After MySQL 5.6.10, InnoDB supports fulltext indexes
 /*!50610 ALTER TABLE film_text engine=InnoDB */;
