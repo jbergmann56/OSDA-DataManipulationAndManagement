@@ -25,7 +25,18 @@ WHERE `Language` = 'English'
 AND isofficial = 'T'
 ORDER BY percentage DESC;
 
--- 6. In the world.country table, compare the average life expectancy of people, in a variety of ways. 
+#6. In the world.country table, create an “average life expectancy” grouping, then count the number of countries in each group. 
+#(using a CASE statement)   
+SELECT COUNT(*), 
+CASE WHEN LifeExpectancy BETWEEN 40 and 49 then '40-49'
+WHEN LifeExpectancy BETWEEN 50 and 59 then '50-59'
+WHEN LifeExpectancy BETWEEN 60 and 69 then '60-69'
+WHEN LifeExpectancy BETWEEN 70 and 79 then '70-79'
+WHEN LifeExpectancy >= 80 then '80+'
+ELSE 'Other' END as Life_Exp_Group
+FROM world.country;
+
+-- Extra. In the world.country table, compare the average life expectancy of people, in a variety of ways. 
 SELECT `code` AS country_code, `name` AS country, LifeExpectancy AS life_expectancy, GNP, Population, GNP/Population AS gnp_per_capita
 FROM world.country
 WHERE continent = 'Europe'

@@ -8,3 +8,4 @@ Step 2: Check Setup
 		ii. Hostname:  odsa.mysql.database.azure.com
 		iii. Set username/password  (given password - ask jeremy@jbanalyticsconsulting.com for access/schemas)
 	d. Run Example -- SELECT * FROM world.city;
+

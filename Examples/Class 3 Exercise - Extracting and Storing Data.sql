@@ -46,4 +46,3 @@ DROP firstname;
 #8. drop the “Person” table from the “MissingPersons” schema.
 DROP TABLE missingpersons.person; 
 DROP DATABASE missingpersons; 
-
