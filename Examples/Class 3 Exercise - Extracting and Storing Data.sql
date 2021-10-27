@@ -1,6 +1,6 @@
 #1. Create a schema named “MissingPersons” 
 CREATE SCHEMA missingpersons; 
-USE missingpersons;
+USE jbergmann;  #use personal schema for exercise
 
 /* #2.Create a table in “MissingPersons” schema named “Person”, with the following qualities:  
 Fields:  ID, LastName, FirstName, Age
@@ -30,8 +30,9 @@ VALUES
 (4,'Shakur','Tupac',49,'M');
 
 #5. Delete the record with “lastname” = “Presley” 
--- if error run the followin code:  SET SQL_SAFE_UPDATES = 0;
-DELETE FROM missingpersons.person 
+SET SQL_SAFE_UPDATES = 0; -- if error using the DELETE clause, run the preceeding code
+
+DELETE FROM person 
 WHERE lastname = 'Presley';
 
 #6. Update the LastName in the record that contains “ID” = 4 --> “LastName” = ‘Crooks’ 
@@ -44,5 +45,5 @@ ALTER TABLE missingpersons.person
 DROP firstname;
 
 #8. drop the “Person” table from the “MissingPersons” schema.
-DROP TABLE missingpersons.person; 
-DROP DATABASE missingpersons; 
+DROP TABLE person; 
+#DROP DATABASE missingpersons; 

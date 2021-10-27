@@ -1,16 +1,19 @@
+/* Note: Build the tables in your given schema - ex. jbergmann */
 /* 1a - Create a table named “console_game_sales” in the consoles schema, using the “ConsoleGames_201905.csv” file in the “Class Project/consoles” folder */
--- drop table consoles.console_game_sales  
-CREATE TABLE consoles.console_game_sales (
-  `Rank` int(11) DEFAULT NULL,
-  `Rank_Last_Month` text,
-  `Title` text,
-  `Publisher` text,
-  `Genre` text,
-  `Date` date DEFAULT NULL
+DROP TABLE IF EXISTS class_project.console_game_rank;  
+CREATE TABLE class_project.console_game_rank (
+   id INT NOT NULL AUTO_INCREMENT, #creates a running counter for the number of rows, good to use for primary key 
+  `rank` INT DEFAULT NULL,
+  `rank_last_month` TEXT,
+  `title` TEXT,
+  `publisher` TEXT,
+  `genre` TEXT,
+  `date` TEXT DEFAULT NULL,
+  PRIMARY KEY (id)
 );
 
 /* 1b - Create a SQL script that inserts the values of the CSV file, into the “console_game_sales” table. */
-INSERT INTO consoles.console_game_sales (`Rank`, Rank_Last_Month,Title,Publisher,Genre,`Date`) 
+INSERT INTO class_project.console_game_rank (`rank`, rank_last_month,title,publisher,genre,`date`) 
 VALUES
 (1,'1','Mortal Kombat 11','Warner Bros. Interactive','Fighting','2019-5-30'),
 (2,'2','Days Gone','Sony (Corp)','Action','2019-5-30'),
@@ -24,9 +27,10 @@ VALUES
 (10,'9','NBA 2K19','Take 2 Interactive (Corp)','Sports','2019-5-30');
 
 /* 2. The company is not interested in producing Sports Games - Remove these observations from the “console_game_sales” table */ 
-DELETE FROM consoles.console_game_sales WHERE Genre = 'Sports';
+DELETE FROM class_project.console_game_rank
+WHERE genre = 'Sports';
 
 /* 3.The CEO insist that “Barbie Adventure Game” is a top-seller.  Insert a record with that “Title” into the table, for comparison purposes (mock-up field values)  */ 
-INSERT INTO consoles.console_game_sales (`Rank`, Rank_Last_Month,Title,Publisher,Genre,`Date`) 
+INSERT INTO class_project.console_game_rank (`rank`, rank_last_month, title, publisher, genre, `date`) 
 VALUES
 (55,	'102',	'Barbie Adventure Game',	'Nevermind Games',	'Action',	'2019-5-30');

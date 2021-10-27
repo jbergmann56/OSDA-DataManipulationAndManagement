@@ -1,23 +1,23 @@
-USE console;  /* use the project's database/schema - console */
+USE class_project;  /* use the project's database/schema - console */
 -- 1. Based on the collected console data, what is the newest platform in our dataset and what year was it first available?    
 SELECT *
 FROM console_dates
-ORDER BY first_retail_availability DESC;
+ORDER BY STR_TO_DATE(first_retail_availability, '%m/%d/%Y') DESC; 
+#note: STR_TO_DATE is a mysql function used to convert date string of different formats to date types!
 
 -- 2. Which console had the longest lifespan (in years)?  
-SELECT platform_name,  datediff(discontinued,first_retail_availability)/365 AS console_life
+SELECT platform,  DATEDIFF(STR_TO_DATE(discontinued, '%m/%d/%Y'),STR_TO_DATE(first_retail_availability, '%m/%d/%Y'))/365 AS console_life
 FROM console_dates
 ORDER BY console_life DESC;
 
 -- 3. Based on game data, which country has the most video game sales, over all platforms? 
-SELECT SUM(na_sales) AS na_sales, sum(eu_sales) as eu_sales,sum(jp_sales) AS jb_sales, SUM(other_sales) AS other_sales
+SELECT SUM(na_sales) AS na_sales, sum(eu_sales) as eu_sales,sum(jp_sales) AS jb_sales, SUM(other_sales) AS other_sales #sums over entire columns
 FROM console_games;
 
 -- 4. How many video games were produced for the NES platform? 
-SELECT platform, SUM(na_sales+eu_sales+jp_sales+other_sales) AS total_sales
+SELECT count(DISTINCT `name`) AS game_count
 FROM console_games
-WHERE platform = 'NES'
-GROUP BY platform;
+WHERE platform = 'NES';
 
 -- 5. What Genre of games had the most unit sales for the XBox 360 system? (Math
 SELECT genre, SUM(na_sales+eu_sales+jp_sales+other_sales) AS total_sales
