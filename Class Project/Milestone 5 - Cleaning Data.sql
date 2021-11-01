@@ -6,7 +6,7 @@ a) Change the “N/A” values in the “Weeks to Launch” column to 30, then c
 b) Create “Console”, “Company” and “Genre” fields from the text in “Game_Console_Company_Genre” 
 c) Fill-In the “Game” and “Genre” columns with relevant values, for games in Pos 1-10.  
 d) Calculate the difference between today and the date the preorder list was last published. (‘2018-12-29’) */
-Create view vw_USA_PreOrder_Chart as 
+CREATE VIEW class_project.vw_USA_PreOrder_Chart AS 
 	SELECT Pos, Weekly_Change, Total, 
     convert(replace(a.Weeks_To_Launch,'N/A',30),unsigned) as Weeks_To_Launch_New, /* 2a) */ 
     /* for console, get string between the "(" and ")" */ 
@@ -31,12 +31,12 @@ Create view vw_USA_PreOrder_Chart as
     else 'Other Genre' end as Genre,
     datediff(curdate(),  '2018-12-29') as days_last_published /* 2d */ 
     
-    FROM consoles.usa_preorder as a
+    FROM class_project.usa_preorder as a;
  
 /* 3. Fill-in the “Genre” for the global top-10 pre-ordered games, select “Weeks to Launch”, then summarize by “Total” - 
 What Genre has the top pre orders as of EOY 2018, and what genre do you think will be best in 2019? */
 
 SELECT a.genre, a.Weeks_To_Launch_New, sum(total) as total_presales_2018
-FROM vw_USA_PreOrder_Chart as a
-group by a.genre, a.Weeks_To_Launch_New
-order by a.genre, a.Weeks_To_Launch_New
+FROM class_project.vw_USA_PreOrder_Chart as a
+GROUP BY a.genre, a.Weeks_To_Launch_New
+ORDER BY a.genre, a.Weeks_To_Launch_New
