@@ -220,11 +220,14 @@ FROM world.country
 WHERE `name` REGEXP '^.[abc]'; #note the use of the REGEXP expression in MySQL
 
 #Lecture 5 - Slide 8 -Identify Duplicates by Aggregation
-SELECT `name` AS city, SUM(1) AS `count`                                 
-FROM world.city                                                                                
-WHERE countrycode='USA'                                                              
-GROUP BY `name`   
+SELECT `name` AS city, district, SUM(1) AS `count`                                 
+FROM world.city                                                                                                                                          
+GROUP BY `name`, district
 HAVING count > 1;
+
+SELECT *                             
+FROM world.city     
+WHERE `name` = 'San Juan' AND district = 'San Juan'    ;                                                                                                                                 
                                                                                           
 #Lecture 5 - Slide 8 -Identify Duplicates by Aggregation
 SELECT `name` AS city, SUM(1) AS `count`                                 
@@ -241,8 +244,11 @@ FROM world.city
 WHERE countrycode='USA'                                                              
 GROUP BY `name`   
 HAVING count > 1) AS b ON  a.`name` = b.city 
-WHERE a.countrycode=‘USA’ 
+WHERE a.countrycode='USA' 
 ORDER BY a.`name`;
+
+#distinct keywork
+
 
 #Lecture 5 - Slide 13 - SQL Query - Numeric Functions - Fill-in and convert `GNPOld` values in World.Country
 #convert decimal in int type
@@ -256,12 +262,11 @@ FROM world.country;
 
 #Lecture 5 - Slide 15 -  String Functions - Convert USA City & State Names to “City, St.” in World.City
 SELECT `name` AS city, district AS state ,
-CONCAT(`name`, ',',  district) AS city_state_full, 
-CASE WHEN district = 'New York' THEN 'NY'
-WHEN INSTR(district,'Tex') then 'TX'
-WHEN district = 'Arizona' THEN REPLACE(district, 'Arizona', 'AZ')
-WHEN TRIM(LEADING 'Penn' FROM district) = 'sylvania' THEN 'PA' #LEADING is a MySQL keyword
-ELSE UPPER(LEFT(district,2)) END AS state_abbrev
+CONCAT(`name`, ', ', CASE WHEN district = 'New York' THEN 'NY'
+					WHEN INSTR(district,'Tex') then 'TX'
+					WHEN district = 'Arizona' THEN REPLACE(district, 'Arizona', 'AZ')
+					WHEN TRIM(LEADING 'Penn' FROM district) = 'sylvania' THEN 'PA' #LEADING is a MySQL keyword
+					ELSE UPPER(LEFT(district,2)) END) AS city_state_full
 FROM world.city AS a  
 WHERE a.CountryCode='USA' ;
 
