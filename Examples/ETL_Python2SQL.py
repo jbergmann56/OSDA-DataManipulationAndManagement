@@ -28,7 +28,9 @@ import numpy as np
 
 
 #read csv file into python using pandas
-df = pd.read_csv('BL-Flickr-Images-Book.csv')
+#change to the "examples" download path
+path = 'C:/Users/Jeremy Bergmann/OneDrive - Paradigm Oral Surgery/Documents/GitHub/OSDA-DataManipulationAndManagement/Examples'
+df = pd.read_csv(path + '/BL-Flickr-Images-Book.csv')
 df.head() #explore dataframe column contents
 
 
@@ -82,7 +84,7 @@ print(df.shape) #get data type counts - change using
 
 
 extr = df['Date of Publication']
-df['Date of Publication'] = pd.to_numeric(extr)
+#df['Date of Publication'] = pd.to_numeric(extr)
 df['Date of Publication'].head()
 
 
@@ -141,7 +143,9 @@ print(cleaned_df.head())
 
 
 #export in utf-8 encoding - helps with later import into mysql!
-cleaned_df.to_csv('BL-Flickr-Images-Book-Cleaned.csv',header=False,encoding='utf-8')
+cleaned_df.to_csv(path + '/BL-Flickr-Images-Book-Cleaned.csv'
+                  ,header=False
+                  ,encoding='utf-8')
 
 
 # <b> Python Bulk Loading Data (ETL) into MySQL with Python </b><br>
@@ -149,13 +153,11 @@ cleaned_df.to_csv('BL-Flickr-Images-Book-Cleaned.csv',header=False,encoding='utf
 
 # In[64]:
 
-
-#install pymysql using pip "!pip install pymysql"
+#install pymysql using pip command: !pip install pymysql
 #!pip install pymysql
 
 
 # In[65]:
-
 
 #purpose:  Python Bulk Loading Data (ETL) into MySQL with Python
 #Insert "Cleaned" csv file into MySQL database table
@@ -164,19 +166,21 @@ import pymysql #pymysql package to connect to MySQL and execute SQL statements w
 
 # In[68]:
 
-
-import csv #Python Core Package - import csv file from local path
-mydb = pymysql.connect(host='localhost', user='root', passwd='root', db='sys')
-#open cleaned dataset to import into MySQL table (See Table Create Script - ETL_Python2SQL_Books.sql)
-csv_data = csv.reader(open('BL-Flickr-Images-Book-Cleaned.csv',encoding='utf-8'))
+#create mysql database connection  for storing "cleaned" file
+schema = 'newuser' #set to your user schema
+pwd = 'set your password here'
+mydb = pymysql.connect(host='odsa.mysql.database.azure.com'
+                       , user='jbergmann', passwd=pwd, db=schema)
 
 
 # In[79]:
-
-
+    
+import csv #Python Core Package - import csv file from local path
+#open cleaned dataset to import into MySQL table (See Table Create Script - ETL_Python2SQL_Books.sql)
+csv_data = csv.reader(open('BL-Flickr-Images-Book-Cleaned.csv',encoding='utf-8'))
 #run MySQL SQL query to create table for imported CSV file
 cursor = mydb.cursor()
-query = """CREATE TABLE sys.etl_books (
+query = """CREATE TABLE newuser.etl_books (
   identifier varchar(10) NOT NULL,
   place_of_publication text,
   date_of_publication varchar(50) DEFAULT NULL,
@@ -193,7 +197,7 @@ cursor.close()
 
 # In[81]:
 
-
+#Load Data - The final "L" step in ETL
 #import each row of the csv file in to the corresponding database/table in MySQL
 cursor = mydb.cursor()
 query = """INSERT INTO etl_books(identifier, place_of_publication, date_of_publication, publisher, title, author, flickr_url) 

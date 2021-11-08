@@ -51,7 +51,8 @@ creditlimit DECIMAL(10,2) CHECK (creditlimit < 1000000),
  PRIMARY KEY (customer_number)
 );
 /* Constraints are the rules enforced on the data columns of a table.
-Types of Constraints:  https://www.tutorialspoINT.com/sql/sql-constraINTs.htm */
+Types of Constraints:  https://www.tutorialspoINT.com/sql/sql-constraINTs.htm 
+SET SQL_SAFE_UPDATES = 0; -- if error using the DELETE clause, run the preceeding code */
 
 #Lecture 3 - Slide 8 - Modifying & Deleting Tables
 #Add column
@@ -276,3 +277,4 @@ CASE WHEN indepyear IS NULL THEN 0
 ELSE YEAR(CURDATE())-indepyear END AS years_ind
 FROM world.country;
 
+#Lecture 8 - 

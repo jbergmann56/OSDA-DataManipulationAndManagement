@@ -1,0 +1,27 @@
+https://community.powerbi.com/t5/Desktop/Unable-to-connect-to-Azure-database-for-MySQL-server/m-p/777284
+
+There are several points you may considerate:
+ 
+1.Before you can connect to a MySQL database, you need to install MySQL Connector/Net 6.6.5 for Microsoft Windows on your computer. Select the driver that matches your Power BI Desktop installation (32-bit or 64-bit).
+ 
+2.After installing the MySQL connector, refer to this blog to connect to MySQL in Power BI Desktop.
+
+3.If the connection still fails in Power BI Desktop, please check that if you are able to connect to the MySQL database in MySQL workbench, ensure that MySQL workbench is installed in the same machine as Power BI Desktop.
+
+4.You can check connection string(Server name, database name, username, password) of Azure MySQL database in Azure Portal following the instructions in this blog.
+
+5.Use latest version of Power BI Desktop.
+
+6.When connecting to your server instance of Azure Database for MySQL, you are required to follow the <username@hostname> format , whether you are doing it from mysqlexe client or MySQL workbench. We recommend you get the complete connection string for your client from the Azure portal and use it when connecting to your MySQL server.
+
+7.Connection issues to Azure SQL Database can be classified as follows:
+
+Transient errors (short-lived or intermittent)
+
+Persistent or non-transient errors (errors that regularly recur)
+ 
+You may resolve the issue via the troubleshooting link: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-troubleshoot-common-connection-issu....
+
+If your Azure issue is not addressed in this article, visit the Azure forums on MSDN and Stack Overflow. You can post your issue in these forums, or post to @AzureSupport on Twitter. You also can submit an Azure support request. To submit a support request, on the Azure support page, select Get support.
+
+ 

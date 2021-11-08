@@ -1,5 +1,5 @@
-drop table if exists test.etl_books;
-CREATE TABLE test.etl_books (
+DROP TABLE IF EXISTS jbergmann.etl_books;
+CREATE TABLE jbergmann.etl_books (
   `Identifier` varchar(10) DEFAULT NULL,
   `Place of Publication` text,
   `Date of Publication` varchar(50) DEFAULT NULL,
@@ -8,4 +8,4 @@ CREATE TABLE test.etl_books (
   `Author` text,
   `Flickr URL` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-select * from test.etl_books; 
+select * from jbergmann.etl_books; 
